@@ -55,7 +55,8 @@ if(isset($_POST['send'])){
 <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ALf79_X_jnkTfeyU_tB7CI_WWtzZqjj-KA&usqp=CAU">
         <link href='custom.css' rel='stylesheet' type='text/css'>
     </head>
-    <body>
+    <?php include "container.php"; ?>
+
 
         <div class="container">
           
