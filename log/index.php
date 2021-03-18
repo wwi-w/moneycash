@@ -50,7 +50,7 @@ if(isset($_SESSION['user_id'])){
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
-            <li class="active"><a href="contact.php">contact us</a></li>
+            <li class="active"><a href="contacts.php">contact us</a></li>
             <li class="active"><a href="logout.php">Logout</a></li>
             
 
