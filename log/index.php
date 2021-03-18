@@ -1,6 +1,6 @@
 <?php 
 session_start();
-include('header.php');
+include "header.php";
 include_once("db_connect.php");
 ?>
 <title>Money cashL</title>
@@ -22,8 +22,19 @@ if(isset($_SESSION['user_id'])){
   echo "you need to login first";
 }
 ?>
+<head>
+        <title>moneycash</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:url" content="">
+<meta property="og:type" content="article">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="claim your free money from moneycash">
+<meta property="og:description" content="click here to claim it">
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ALf79_X_jnkTfeyU_tB7CI_WWtzZqjj-KA&usqp=CAU">
+<script type="text/javascript" src="script/ajax.js"></script>
+<link rel="stylesheet" type="text/css" href="custom.css">
 </head>
-
 <body class="">
 <div role="navigation" class="navbar navbar-default navbar-static-top">
       <div class="container">
@@ -34,22 +45,34 @@ if(isset($_SESSION['user_id'])){
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a href="" class="navbar-brand">MONEYCASH.COM</a>
+          <a href="index.php" class="navbar-brand">MONEYCASH.COM</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
-           <li class="active"><a href="contacts.php"> Contacts Us</a></li>
-            <li class="active"><a href="logout.php">logout</a></li>
-<?php
-?>
-      
+            <li class="active"><a href="contact.php">contact us</a></li>
+            <li class="active"><a href="logout.php">Logout</a></li>
+            
+
+           
           </ul>
          
         </div><!--/.nav-collapse -->
       </div>
     </div>
 	
+	<div class="container" style="min-height:500px;">
+	<div class=''>
+	</div>
+       <!-- <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.php">Home</a></li>
+           <li class="active"><a href="contacts.php"> Contacts Us</a></li>
+            <li class="active"><a href="logout.php">logout</a></li>
+--->
+
+<?php
+?>
 	<div class="container" style="min-height:500px;">
 	<div class=''>
 	</div>
