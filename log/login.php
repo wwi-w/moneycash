@@ -31,6 +31,18 @@ if (isset($_POST['login'])) {
 	}
 }
 ?>
+<title>moneycash</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:url" content="">
+<meta property="og:type" content="article">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="claim your free money from moneycash">
+<meta property="og:description" content="click here to claim it">
+<meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0ALf79_X_jnkTfeyU_tB7CI_WWtzZqjj-KA&usqp=CAU">
+<script type="text/javascript" src="script/ajax.js"></script>
+<link rel="stylesheet" type="text/css" href="custom.css">
+<script type="text/javascript" src="script/ajax.js"></script>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
       <div class="container">
