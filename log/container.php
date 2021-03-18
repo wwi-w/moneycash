@@ -14,7 +14,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="index.php">Home</a></li>
-            <li class="active"><a href="faq.php">Faq</a></li>
+            <li class="active"><a href="contacts.php">contact us</a></li>
             <li class="active"><a href="login.php">Login</a></li>
             
 
