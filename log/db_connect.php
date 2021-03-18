@@ -1,6 +1,6 @@
 <?php
 /* Database connection start */
-$servername = "mysql-23766-0.cloudclusters.net";
+$servername = "mysql-23766-0.cloudclusters.net:23808";
 $username = "adeniran1234";
 $password = "JOShua123@#";
 $dbname = "users";
