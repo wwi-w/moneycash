@@ -500,3 +500,4 @@ if (isset($_POST['signup'])) {
 		</div>	
 </div>
 <?php include('footer.php');?> 
+		
