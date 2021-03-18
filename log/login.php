@@ -33,7 +33,7 @@ if (isset($_POST['login'])) {
 ?>
 <script type="text/javascript" src="script/ajax.js"></script>
 <?php include('container.php');?>
-
+      <div class="container">
 	<div class="row">
 		<div class="col-md-4 col-md-offset-4 well">
 		
@@ -43,18 +43,18 @@ if (isset($_POST['login'])) {
 					<span class="text-danger" style="text-align: center;"><?php if (isset($error_message)) { echo $error_message; } ?></span>						
 					<div class="form-group">
 						<label for="name">Email</label>
-						<input type="text" name="email" placeholder="Your Email" required class="form-control is-invalid" />
+						<input type="text" name="email" placeholder="Your Email" required class="form-control" />
 					</div>	
 					<div class="form-group">
 						<label for="name">Password</label>
-						<input type="password" name="password" placeholder="Your Password" required class="form-control is-invalid" />
+						<input type="password" name="password" placeholder="Your Password" required class="form-control" />
 					</div>	
 					<div class="btn">
 						<input type="submit" name="login" value="Login" class="btn btn-primary" />
 					</div>
 				</fieldset>
 			</form>
-			
+		</div>
 		</div>
 	</div>
 	<div class="row">
